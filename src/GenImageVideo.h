@@ -6,6 +6,7 @@
 #include <opencv2/imgproc/imgproc.hpp>
 
 void GenerateVideo(const char * dir,const char *videopath,bool isColor);
+void GenerateVideo(const char * xmlfile);
 void GDAL2Mat(const char* fileName,cv::Mat &dstMat,int bufWidth,int bufHeight,
 	int startCol,int startRow,int colNum,int rowNum);
 
